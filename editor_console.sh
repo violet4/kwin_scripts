@@ -1,0 +1,1 @@
+plasma-interactiveconsole --kwin
