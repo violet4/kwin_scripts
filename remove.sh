@@ -1,1 +1,5 @@
-kpackagetool6 --type=KWin/Script -r minimizeall_violet
+if [ -z "$1" ]; then
+  echo must specify path to directory containing script
+  exit 1
+fi
+kpackagetool6 --type=KWin/Script -r "$1"
